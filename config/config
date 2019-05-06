@@ -1,0 +1,18 @@
+{
+	"BeforeCommand":["echo before"],
+	"AfterCommand":["echo after"],
+	"IpAddress":[{
+        	"Addr":"",
+        	"Port":0,
+        	"User":"",
+        	"Pass":"",
+        },{
+            "Addr":"159.138.30.154",
+            "Port":22,
+            "User":"",
+            "Pass":"",
+        }],
+	"NginxConfigPath":"/etc/nginx.conf",
+	"NginxDomain":"proxy.aipower.cmbchina.cn",
+	"NginxRestartCommand":"nginx –s reload"
+}
